@@ -48,7 +48,7 @@ nav ul li a:hover {
 /* Left Section (Photo, Name, Contact Info) */
 .left {
     flex: 1;
-    margin-right: 20px;
+    margin-right: 10px;
 }
 
 .left .photo {
