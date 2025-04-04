@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Personal Website</title>
+    <title>Xingye's Personal Website</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,39 +11,37 @@
         <h1>Xingye Lin</h1>
         <nav>
             <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#Home">About Me</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <img src="photo.jpg" alt="A photo of me" width="300" height="auto">
-        <p>Hello! I am currently a forth-year undergraduated student majoring Computer Science at the University of California, Santa Barbara (UCSB). Pronouns: She/Her.</p>
-        <br>
-        <p>My passion lies in combining technical expertise with creative problem solving to build innovative systems and tools. I am good at developing games and websites. I'm open to exploring other areas of development as well.</p>
-        <br>
-        <p>Currently, I am working as a Robotics Software Engineer Intern at AI CHA, where I'm developing a voice-activated interaction system for a Unitree robot.  I also have experience in game development and web applications, having worked on projects such as <a href="https://play.unity.com/en/games/d983cae9-9b8c-45c3-ba9a-351c7adde4b2/live-or-die-with-your-best-friend" target="_blank">Live or Die With Your Best Friend</a> and <a href="https://happycows.dokku-00.cs.ucsb.edu/" target="_blank">Happy Cows (newest version)</a>.</p>
-        <br>
-        <p>With proficiency in languages like C++, Python, and Java, and expertise in tools like Unity and Git, I strive to create meaningful solutions that enhance user experiences.  On top of that, I have a strong foundation in both Chinese and English, allowing me to work in diverse environments.</p>
-        <br>
-    </section>
-
-    <section id="projects">
-        <h2>Projects</h2>
-        <ul>
-            <li>Robot Voice Interaction System</li>
-            <li>Milk Tea Shop Robot</li>
-        </ul>
-    </section>
-
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:xingyelin@ucsb.edu">xingyelin@ucsb.edu</a></p>
-        <!-- <p>Personal Email: <a href="mailto:cindystarlin777@gmail.com">cindystarlin777@gmail.com</a></p> -->
-    </section>
+    <div class="container">
+        <!-- Left Side (Photo, Name, Contact Info) -->
+        <div class="left">
+            <img src="photo.jpg" alt="My Photo" class="photo" width="300" height="auto">
+            <h1>Xingye Lin</h1>
+            <p>Email: xingyelin@ucsb.edu</p>
+            <p>Phone: (626)766-6315</p>
+        </div>
+        
+        <!-- Right Side (About Me) -->
+        <div class="right">
+            <section id="Home">
+                <h2>About Me</h2>
+                <img src="photo.jpg" alt="A photo of me" width="300" height="auto">
+                <p>Hello! I am currently a forth-year undergraduated student majoring Computer Science at the University of California, Santa Barbara (UCSB). Pronouns: She/Her.</p>
+                <br>
+                <p>My passion lies in combining technical expertise with creative problem solving to build innovative systems and tools. I am good at developing games and websites. I'm open to exploring other areas of development as well.</p>
+                <br>
+                <p>Currently, I am working as a Robotics Software Engineer Intern at AI CHA, where I'm developing a voice-activated interaction system for a Unitree robot.  I also have experience in game development and web applications, having worked on projects such as <a href="https://play.unity.com/en/games/d983cae9-9b8c-45c3-ba9a-351c7adde4b2/live-or-die-with-your-best-friend" target="_blank">Live or Die With Your Best Friend</a> and <a href="https://happycows.dokku-00.cs.ucsb.edu/" target="_blank">Happy Cows (newest version)</a>.</p>
+                <br>
+                <p>With proficiency in languages like C++, Python, and Java, and expertise in tools like Unity and Git, I strive to create meaningful solutions that enhance user experiences.  On top of that, I have a strong foundation in both Chinese and English, allowing me to work in diverse environments.</p>
+            </section>
+        </div>
+    </div>
 
     <footer>
         <p>&copy; 2025 Xingye Lin. All rights reserved.</p>
