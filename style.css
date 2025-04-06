@@ -40,9 +40,10 @@ nav ul li a:hover {
 /* Main Container */
 .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
     padding: 20px;
     margin: 20px;
+    gap: 30px;
 }
 
 /* Left Section (Photo, Name, Contact Info) */
