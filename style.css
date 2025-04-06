@@ -104,3 +104,8 @@ footer {
     color: gray;
     margin-left: 10px;
 }
+
+.project-container {
+    padding: 20px;
+    margin: 20px;
+}
