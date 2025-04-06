@@ -107,6 +107,7 @@ footer {
 
 .project-container {
     display: flex;
+    justify-content: flex-start;
     padding: 20px;
     margin: 20px;
 }
