@@ -49,7 +49,7 @@ nav ul li a:hover {
 /* Left Section (Photo, Name, Contact Info) */
 .left {
     flex: 1;
-    display: flex;
+    display: center;
     flex-direction: column;
     align-items: center;
     justify-content: center;
