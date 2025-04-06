@@ -98,3 +98,9 @@ footer {
     color: white;
     margin-top: 20px;
 }
+
+.sub-note {
+    font-style: italic;
+    color: gray;
+    margin-left: 10px;
+}
