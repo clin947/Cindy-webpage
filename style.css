@@ -106,8 +106,7 @@ footer {
 }
 
 .project-container {
-    display: flex;
-    justify-content: flex-start;
+    margin-bottom: 10px;
     padding: 20px;
     margin: 20px;
 }
